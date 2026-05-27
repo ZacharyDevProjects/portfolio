@@ -56,7 +56,7 @@ function Contact() {
               GitHub
             </a>
             <a href="tel:0631553405" className="btn text-xs">
-              06 37 88 46 23
+              06 31 55 34 05
             </a>
           </div>
 

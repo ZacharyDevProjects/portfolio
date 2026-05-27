@@ -7,25 +7,30 @@ interface LearningEntry {
 
 const entries: LearningEntry[] = [
   {
-    period: '2023 – 2024',
-    title: 'Working in Logistics',
-    body: 'Two jobs in a row at Fréquence and WMH Project showed me that coordination is way messier than it sounds. You\'re managing inventory, packing orders, and trying to stay synced with suppliers — everything has to be exact. Then events production added the chaos factor: last-minute changes, tight deadlines, and a team that needed to be on the same page right now. I took that stress tolerance and constant communication straight into team projects at Epitech.',
-    tags: ['Logistics', 'Coordination', 'Stress management', 'Teamwork'],
+    period: '2024',
+    title: 'Sales & Customer Interaction',
+    body: 'Working at Michocomigateau as a pastry sales assistant showed me a very different side of operational work: direct customer interaction. It was about speed, accuracy, and maintaining a clean and welcoming space while handling orders and payments. Unlike logistics or backstage event work, here everything is visible and immediate — customer satisfaction depends on every small detail. It strengthened my discipline, my attention to consistency, and my ability to stay efficient during peak rush moments.',
+    tags: ['Customer service', 'Sales', 'Responsibility', 'Efficiency', 'Attention to detail'],
+  },
+  {
+    period: '2024',
+    title: 'Independent Work (Auto-entreprise)',
+    body: 'Working under auto-entrepreneur status pushed me to handle projects end-to-end, from finding clients to delivering services and managing invoicing. It forced me to be autonomous, organized, and accountable for everything without external structure. I learned how to manage time, expectations, and communication in a professional context where I was fully responsible for outcomes.',
+    tags: ['Autonomy', 'Freelance', 'Organization', 'Client management', 'Responsibility'],
   },
   {
     period: 'Nov 2025 – Jan 2026',
     title: 'Web & Front-End Development',
-    body: 'HTML and CSS came pretty fast, but React actually made me rethink how I build things. Components, state, render cycles — it\'s not intuitive at first. Building this portfolio was different from exercises: I had something real to ship, actual design choices to defend, and code that had to not just work but feel good. That obsession with details from running events kept me honest here.',
+    body: 'HTML and CSS came pretty fast, but React actually made me rethink how I build things. Components, state, render cycles — it’s not intuitive at first. Building this portfolio was different from exercises: I had something real to ship, actual design choices to defend, and code that had to not just work but feel good. That obsession with details from running events kept me honest here.',
     tags: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript'],
   },
   {
     period: 'Feb – May 2026',
     title: 'Data, ML & Cybersecurity',
-    body: 'Working on NextBuy and the NLP stuff made clear that numbers are only useful if they actually connect to a decision someone needs to make. Data pipelines and training models for their own sake is useless. At the same time I started digging into CTF challenges and reading about CVE exploits. That attacker perspective changed how I code now — I think about input validation, trust boundaries, and XSS vectors. From the get-go not after all is done',
+    body: 'Working on NextBuy and NLP projects made it clear that data is only useful when it connects to real decisions. Building models for the sake of it is pointless if it doesn’t solve a concrete need. At the same time, exploring CTF challenges and CVE analyses shifted how I approach development: I now think in terms of attack surfaces, input validation, and trust boundaries from the start, not after deployment.',
     tags: ['Python', 'Machine Learning', 'NLP', 'CTF', 'OWASP', 'Security mindset'],
   },
-]
-
+];
 function Learning() {
   return (
     <section id="learning" className="py-20 reveal">
